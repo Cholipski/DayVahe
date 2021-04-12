@@ -1,6 +1,10 @@
 # DayVahe
+## _Projekt stworzony na potrzeby przedmiotu "Inżynieria oprogramowania"_
 
-Projekt stworzony na potrzeby przedmiotu "inżynieria oprogramowania" 
+
+
 Współtworzyli:
-Front-end: Paweł Antończyk
-Back-end: Kamil Cholipski, Paweł Brodzik
+
+- Paweł Antończyk (Frontend)
+- Kamil Cholipski (Backend)
+- Paweł Brodzik (Backend)
