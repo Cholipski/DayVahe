@@ -1,0 +1,99 @@
+/* Style login.php */
+.login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+    font-size: 14px;
+    margin-top:20px;
+}
+
+
+.login-form{
+    width:330px;
+    margin:20px;
+}
+
+.sign-up{
+    text-align:center;
+    padding:20px 0 0;
+}
+
+.alert{
+    margin-bottom:-30px;
+    font-size: 13px;
+    margin-top:20px;
+}
+/* End Style login.php */
+
+/* Style form */
+.bg-form {
+    background-color: #f5f5f5;
+
+}
+.add-car-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+/* Style kierownik.php left bar */
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+/* End Style kierownik.php left bar */
+
