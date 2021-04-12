@@ -1,0 +1,302 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fafaff;
+}
+.text-shadow {
+    text-shadow: 0 1px 0 #ccc,
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.bg-black {
+    background: #262632;
+}
+
+/* Navigation */
+.navbar {
+    background: #262632;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.navbar.scrolled {
+    transition: 0.5s;
+    opacity: 0.95;
+}
+
+.navbar-expand-md {
+    text-align: center;
+}
+
+.my-nav a {
+    margin-right: 10px;
+    color:white !important;
+    border-bottom: 2px solid transparent;
+}
+
+.my-nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-login a {
+    color:white !important;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-login a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.dropdown-menu a:hover {
+    text-decoration: none;
+}
+/* End Navigation */
+
+/* Header */
+.my-header {
+    position: relative;
+    background: url("../images/banner.jpg") no-repeat center center/cover;
+    height: 550px;
+    width: auto;
+}
+
+.my-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Overlay */
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.my-header-content h1 {
+    width: auto;
+    top: 300px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 3vw;
+}
+/* End Header */
+
+/* Section Cars cards */
+.section-cars h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+}
+
+.section-cars-card {
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+.section-cars-card img{
+    border: 1px solid gold;
+}
+
+.section-cars-card:hover {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-detail-badge {
+    background: #f2d900;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #000;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* End Section Cars cards */
+
+/* Section Testimonials */
+#demo {
+    background: linear-gradient(112deg, #fafaff 50%, blanchedalmond 50%);
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.testimonials i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    .testimonials i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+/* End Section Testimonials */
+
+/* Footer */
+
+footer h2{
+    border-bottom: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+footer ul.quick-links li{
+    padding: 3px 0;
+    transition: .5s all ease;
+}
+
+footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left:5px;
+    font-weight:700;
+}
+
+footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+/* Section about */
+
+.about-us h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+}
+.about-us .section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.about-us .card{
+    padding: 1rem!important;
+    border: none;
+    background: #fafaff;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+.about-us .card:hover{
+    background: whitesmoke;
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+.about-us .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+
+.about-us .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: gold;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+.about-us .card .block-1:before{
+    content: "\f007";
+}
+.about-us .card .block-2:before{
+    content: "\f1b9";
+}
+.about-us .card .block-3:before{
+    content: "\f091";
+}
+.about-us .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+/* End Section about */
